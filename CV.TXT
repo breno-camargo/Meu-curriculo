@@ -1,0 +1,124 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in,nofoot]{geometry}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+    citecolor=black
+}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{*1}{*1}
+
+\newcommand{\entry}[4]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \noindent\textit{#3} \hfill \textit{#4} \\
+  \vspace{2pt}
+}
+
+\newcommand{\project}[2]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \vspace{2pt}
+}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{\Large Breno Henrique Santos de Camargo}
+
+\vspace{0.4em}
+
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\raggedleft
+
+São Paulo – SP
+
+{\color{blue}} \href{tel:+5511990127316}{\faPhone \space (11) 99012-7316}
+{\color{blue}} \href{mailto:breno.hsc75@gmail.com}{\faEnvelope \space breno.hsc75@gmail.com}
+
+\vspace{0.2em}
+ \quad
+{\color{blue}} \href{https://github.com/breno-camargo}{\faGithub \space GitHub} \quad
+{\color{blue}} \href{https://www.linkedin.com/in/breno-camargo1/}{\faLinkedin \space LinkedIn} \\
+\end{minipage}
+
+\vspace{1em}
+
+\begin{center}
+    \textbf{Técnico de sistemas \textbar\ Estudante FULL STACK}
+\end{center}
+\vspace{0.5em}
+
+\section*{Resumo Profissional}
+
+\vspace{0.6em}
+
+Técnico de sistemas pela E-vertical onde atuo em meu dia dia com desafio diários, onde aprimoro minha comunicação e parte técnica Cursando tecnologia em Análise e Desenvolvimento de Sistemas. 
+
+\vspace{0.6em}
+
+\vspace{0.5em}
+
+\section*{Experiência}
+
+\vspace{0.6em}
+
+\entry{Porto}{\faCalendar \space Janeiro/2023 -- Dezembro/2023}{Jovem aprendiz}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Atendimento receptivo ao cartão Porto.
+\item Comunicação ágil.
+\item Confidencialidade.
+\item Interação com o Público.
+\item Boa escrita.
+
+
+\end{itemize}
+
+\entry{E-vertical}{\faCalendar \space 
+ Dezembro/2023 -- Momento}{Técnico de sistemas}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Preventivas e corretivas nos sistemas de SDAI, CFTV, SAP e SCA.
+\item Comunicação com o cliente.
+\item Montagem e preenchimento de O.S e KPI.
+\item Interação com o Público.
+\item Cumprimento de Prazos.
+
+\end{itemize}
+
+% \vspace{-1.6em}
+
+\section*{Educação}
+\vspace{0.6em}
+
+\entry{Escola Técnica Estadual Horacio Augusto da Silveira - ETEC}{\faCalendar \space 2020 - 2022}{Técnico em eletrônica integrado ao ensino médio}{\faMapMarker \space São Paulo - SP (Presencial)}
+
+\entry{Universisade Paulista - UNIP}{\faCalendar \space 2023 - 2025}{Tecnólogo em Análise e Desenvolvimento de Sistemas}{\faMapMarker \space São Paulo - SP (Presencial)}
+
+\section*{Habilidades}
+\vspace{0.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Frontend: HTML, CSS, JavaScript.
+\item Backend: C, C#, MySQL, SQLserver. 
+\item Controle de Versão: Git, GitHub
+\item Ferramentas e IDEs: VSCode.
+
+\end{itemize}
+
+\end{document}
