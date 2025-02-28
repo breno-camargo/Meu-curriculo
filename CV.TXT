@@ -63,8 +63,7 @@ São Paulo – SP
 
 \vspace{0.6em}
 
-Técnico de sistemas pela E-vertical onde atuo em meu dia dia com desafio diários, onde aprimoro minha comunicação e parte técnica cursando tecnologia em Análise e Desenvolvimento de Sistemas. 
-
+Técnico de sistemas na E-Vertical, atuando diariamente com desafios que aprimoram tanto minha comunicação quanto minhas habilidades técnicas. Atualmente, curso Análise e Desenvolvimento de Sistemas, desenvolvendo conhecimentos em programação, banco de dados e infraestrutura. 
 \vspace{0.6em}
 
 \vspace{0.5em}
@@ -108,7 +107,7 @@ Técnico de sistemas pela E-vertical onde atuo em meu dia dia com desafio diári
 
 \entry{Escola Técnica Estadual Horacio Augusto da Silveira - ETEC}{\faCalendar \space 2020 - 2022}{Técnico em eletrônica integrado ao ensino médio}{\faMapMarker \space São Paulo - SP (Presencial)}
 
-\entry{Universisade Paulista - UNIP}{\faCalendar \space 2023 - 2025}{Tecnólogo em Análise e Desenvolvimento de Sistemas}{\faMapMarker \space São Paulo - SP (Presencial)}
+\entry{Universidade Paulista - UNIP}{\faCalendar \space 2023 - 2025}{Tecnólogo em Análise e Desenvolvimento de Sistemas}{\faMapMarker \space São Paulo - SP (Presencial)}
 
 \section*{Habilidades}
 \vspace{0.6em}
