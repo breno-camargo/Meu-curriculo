@@ -1,0 +1,138 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in,nofoot]{geometry}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+    citecolor=black
+}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{*1}{*1}
+
+\newcommand{\entry}[4]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \noindent\textit{#3} \hfill \textit{#4} \\
+  \vspace{2pt}
+}
+
+\newcommand{\project}[2]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \vspace{2pt}
+}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{\Large Breno Henrique Santos de Camargo}
+
+\vspace{0.4em}
+
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\raggedleft
+
+S\~ao Paulo -- SP, Brazil
+
+{\color{blue}} \href{tel:+5511990127316}{\faPhone \space +55 (11) 99012-7316}
+{\color{blue}} \href{mailto:breno.hsc75@gmail.com}{\faEnvelope \space breno.hsc75@gmail.com}
+
+\vspace{0.2em}
+ \quad
+{\color{blue}} \href{https://github.com/breno-camargo}{\faGithub \space GitHub} \quad
+{\color{blue}} \href{https://www.linkedin.com/in/breno-camargo1/}{\faLinkedin \space LinkedIn} \\
+\end{minipage}
+
+\vspace{1em}
+
+\begin{center}
+    \textbf{Systems Technician \textbar\ Full Stack Developer}
+\end{center}
+\vspace{0.5em}
+
+\section*{Professional Summary}
+
+\vspace{0.6em}
+Systems Technician at CompaSSS, working daily with corrective and preventive maintenance on SDAI, SCA, SAP and CCTV systems. Graduated in Electronics and in Systems Analysis and Development, with skills in full stack web development, databases and infrastructure. I build internal solutions to optimize technical operations.
+\vspace{0.6em}
+
+\vspace{0.5em}
+
+\section*{Experience}
+
+\vspace{0.6em}
+
+\entry{Porto}{\faCalendar \space Jan/2023 -- Dec/2023}{Apprentice}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Inbound customer service for Porto credit card, handling requests and problem resolution.
+\item Handling of sensitive data with confidentiality and discretion.
+\item Logging and tracking of requests through internal systems.
+\end{itemize}
+
+\entry{E-vertical}{\faCalendar \space
+ Dec/2023 -- Apr/2025}{Systems Technician I}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Preventive and corrective maintenance on SDAI, CCTV, SAP and SCA systems.
+\item Preparation of Work Orders and performance indicators (KPIs).
+\item Direct communication with clients for scheduling alignment and demand management.
+\end{itemize}
+\entry{CompaSSS}{\faCalendar \space
+ Apr/2025 -- Present}{Systems Technician II}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Preventive and corrective maintenance on SDAI, CCTV, SAP and SCA systems with greater autonomy and scope.
+\item Creation of maintenance schedules and calendars for multiple contracts.
+\item Development of an internal web system to automate technical visit scheduling.
+\item Management of Work Orders, KPIs and direct communication with clients and technical team.
+\end{itemize}
+
+\section*{Projects}
+\vspace{0.6em}
+
+\project{Attendance Scheduler -- Preventive Maintenance Scheduling System}{\href{https://github.com/breno-camargo}{\faGithub \space GitHub}}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Web application that automates annual preventive visit scheduling for building maintenance contracts (SDAI, CCTV, SCA, SAP).
+\item Generates calendars respecting holidays, weekends, contract frequency and technician availability.
+\item Replaced a manual spreadsheet process that took a week with automatic generation in seconds.
+\item Includes contract, technician and contact management, plus PDF report generation.
+\item Stack: Next.js 14, TypeScript, React, PostgreSQL (Supabase), Prisma, NextAuth.js, Zod.
+\end{itemize}
+
+\section*{Education}
+\vspace{0.6em}
+
+\entry{Escola T\'ecnica Estadual Horacio Augusto da Silveira - ETEC}{\faCalendar \space 2020 - 2022}{Electronics Technician (integrated with high school)}{\faMapMarker \space S\~ao Paulo - SP (On-site)}
+
+\entry{Universidade Paulista - UNIP}{\faCalendar \space 2023 - 2025}{Associate Degree in Systems Analysis and Development}{\faMapMarker \space S\~ao Paulo - SP (On-site)}
+
+\section*{Skills}
+\vspace{0.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Frontend: HTML, CSS, JavaScript, React, TypeScript, Next.js.
+\item Backend: C, Python, Node.js, PostgreSQL, MySQL, Prisma.
+\item Version Control: Git, GitHub.
+\item Tools \& IDEs: VSCode, Vercel, Supabase.
+
+\end{itemize}
+
+\end{document}

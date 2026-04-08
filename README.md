@@ -6,7 +6,8 @@ Currículo profissional escrito em LaTeX.
 
 ## Visualizar
 
-[Baixar PDF](CV%20-%20Breno%20Camargo.pdf)
+- [Português (PDF)](CV%20-%20Breno%20Camargo.pdf)
+- [English (PDF)](CV%20-%20Breno%20Camargo%20(EN).pdf)
 
 ## Contato
 
