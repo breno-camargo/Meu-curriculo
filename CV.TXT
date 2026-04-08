@@ -55,15 +55,14 @@ São Paulo – SP
 \vspace{1em}
 
 \begin{center}
-    \textbf{Técnico de sistemas \textbar\ Estudante FULL STACK}
+    \textbf{Técnico de sistemas \textbar\ Desenvolvedor Full Stack}
 \end{center}
 \vspace{0.5em}
 
 \section*{Resumo Profissional}
 
 \vspace{0.6em}
-
-Técnico de sistemas na E-Vertical, atuando diariamente com desafios que aprimoram tanto minha comunicação quanto minhas habilidades técnicas. Atualmente, curso Análise e Desenvolvimento de Sistemas, desenvolvendo conhecimentos em programação, banco de dados e infraestrutura. 
+Técnico de Sistemas na CompaSSS, atuando diariamente com manutenções corretivas e preventivas em sistemas de SDAI, SCA, SAP e CFTV. Formado em Eletrônica e em Análise e Desenvolvimento de Sistemas, com conhecimentos em programação web full stack, banco de dados e infraestrutura. Desenvolvo soluções internas para otimizar processos da área técnica.
 \vspace{0.6em}
 
 \vspace{0.5em}
@@ -77,30 +76,46 @@ Técnico de sistemas na E-Vertical, atuando diariamente com desafios que aprimor
 \vspace{-1.6em}
 \begin{itemize}
 \setlength\itemsep{0em}
-\item Atendimento receptivo ao cartão Porto.
-\item Comunicação ágil.
-\item Confidencialidade.
-\item Interação com o Público.
-\item Boa escrita.
-
-
+\item Atendimento receptivo a clientes do cartão Porto, lidando com demandas e resolução de problemas.
+\item Tratamento de dados sensíveis com confidencialidade e sigilo.
+\item Registro e acompanhamento de solicitações em sistema interno.
 \end{itemize}
 
-\entry{E-vertical}{\faCalendar \space 
- Dezembro/2023 -- Momento}{Técnico de sistemas}
+\entry{E-vertical}{\faCalendar \space
+ Dezembro/2023 -- Abril/2025}{Técnico de sistemas JI}
 \space
 \vspace{-1.6em}
 \begin{itemize}
 \setlength\itemsep{0em}
-\item Preventivas e corretivas nos sistemas de SDAI, CFTV, SAP e SCA.
-\item Comunicação com o cliente.
-\item Montagem e preenchimento de O.S e KPI.
-\item Interação com o Público.
-\item Cumprimento de Prazos.
-
+\item Execução de manutenções preventivas e corretivas em sistemas de SDAI, CFTV, SAP e SCA.
+\item Montagem e preenchimento de Ordens de Serviço e indicadores de desempenho (KPI).
+\item Comunicação direta com clientes para alinhamento de cronogramas e demandas.
+\end{itemize}
+\entry{CompaSSS}{\faCalendar \space
+ Abril/2025 -- Momento}{Técnico de sistemas JII}
+\space
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Manutenções preventivas e corretivas em sistemas de SDAI, CFTV, SAP e SCA com maior autonomia e escopo.
+\item Elaboração de agendas e cronogramas de manutenção para múltiplos contratos.
+\item Desenvolvimento de sistema web interno para automatizar o agendamento de visitas técnicas.
+\item Gestão de O.S, KPIs e comunicação direta com clientes e equipe técnica.
 \end{itemize}
 
-% \vspace{-1.6em}
+\section*{Projetos}
+\vspace{0.6em}
+
+\project{Attendance Scheduler -- Sistema de Agendamento de Manutenções Preventivas}{\href{https://github.com/breno-camargo}{\faGithub \space GitHub}}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Sistema web que automatiza o agendamento anual de visitas preventivas para contratos de manutenção predial (SDAI, CFTV, SCA, SAP).
+\item Gera calendários respeitando feriados, fins de semana, frequência contratual e disponibilidade dos técnicos.
+\item Substituiu processo manual em planilhas que levava uma semana por geração automática em segundos.
+\item Inclui gestão de contratos, técnicos, contatos e geração de relatórios em PDF.
+\item Stack: Next.js 14, TypeScript, React, PostgreSQL (Supabase), Prisma, NextAuth.js, Zod.
+\end{itemize}
 
 \section*{Educação}
 \vspace{0.6em}
@@ -113,10 +128,10 @@ Técnico de sistemas na E-Vertical, atuando diariamente com desafios que aprimor
 \vspace{0.6em}
 \begin{itemize}
 \setlength\itemsep{0em}
-\item Frontend: HTML, CSS, JavaScript.
-\item Backend: C, C#, MySQL, SQLserver. 
-\item Controle de Versão: Git, GitHub
-\item Ferramentas e IDEs: VSCode.
+\item Frontend: HTML, CSS, JavaScript, React, TypeScript, Next.js.
+\item Backend: C, Python, Node.js, PostgreSQL, MySQL, Prisma.
+\item Controle de Versão: Git, GitHub.
+\item Ferramentas e IDEs: VSCode, Vercel, Supabase.
 
 \end{itemize}
 
